@@ -68,3 +68,21 @@ flowchart TB
     class qtsp component;
     class directory governance;
 ```
+
+## Wallet Types in WE BUILD 
+
+WE BUILD supports wallet solutions for both natural persons and economic operators.
+
+Natural persons interact through EUDI Wallets, which enable individuals to authenticate and present personal identity attributes. Economic operators interact through EBW, which enable organisations to manage and present business-related attestations such as representation rights or organisational attributes.
+
+From a deployment perspective, wallet solutions can be implemented in several ways depending on the target users, operational requirements, and cryptographic architecture. In practice, three main implementation approaches are relevant within the WE BUILD ecosystem.
+
+| Wallet type | Typical context | Characteristics |
+|---|---|---|
+| **Mobile wallets (on-device)** | Natural persons | Wallet application running on a user’s smartphone, with credentials stored and used locally on the device. |
+| **Server or Web-based wallets** | Economic operators | Wallet services operated in backend infrastructure and accessed through Web interfaces or enterprise systems. |
+| **Hybrid wallets** | Both contexts | Combine device-based interaction with backend cryptographic infrastructure. |
+
+The underlying cryptographic architecture of wallets is defined in the ARF and related standards. This Blueprint therefore focuses on the interactions and interoperability patterns relevant for WE BUILD rather than repeating the detailed wallet architecture definitions.
+
+In practice, most deployments follow a mobile-first approach for natural persons and a server-based or enterprise-integrated approach for economic operators. Hybrid architectures may also be used to combine device-based user interaction with backend cryptographic services.

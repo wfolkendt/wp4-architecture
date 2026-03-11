@@ -90,6 +90,9 @@ cat appendix-trust-ecosystem.md >> main.md
 echo >> main.md
 cat appendix-ebw-definition.md >> main.md
 
+echo >> main.md
+cat appendix-wallet-implementation-models.md >> main.md
+
 # ADR appendix, gathers all ADRs
 echo >> main.md
 cat appendix-adr.md >> main.md

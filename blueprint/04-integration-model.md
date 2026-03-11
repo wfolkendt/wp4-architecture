@@ -161,3 +161,10 @@ WE BUILD will follow the QERDS architecture decomposition and the 4-corner deliv
 5) Recipient notification will be issued, followed by recipient authentication being performed at QTSP B.
 6) Consignment and handover of the message and its metadata will be performed to the recipient’s wallet or connected backend system.
 7) Evidence will be made accessible to sender and recipient wallets (submission/dispatch and receipt/consignment or non-delivery). Evidence will be protected by qualified sealing and, where required, qualified timestamping. Where applicable, the evidence can be pushed to the sender’s and the recipient’s backend systems as well.
+
+## Enterprise and System-to-System Wallet Interactions
+Some WE BUILD scenarios involve interactions between backend systems rather than direct end-user actions. In these cases, wallet functionality may be integrated into enterprise platforms, APIs, or automated services.
+
+This is particularly relevant for EBW scenarios such as supply chain credentials, Digital Product Passports, and automated B2B or B2G data exchange. In such cases, credential issuance and presentation may be initiated by backend systems while still following the interoperability patterns defined in this blueprint.
+
+Although the interaction is system-driven, the same trust framework, credential formats, and verification mechanisms apply as in user-driven wallet interactions.
